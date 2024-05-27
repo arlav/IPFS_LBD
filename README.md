@@ -27,9 +27,19 @@ there is no difference whether you run IPFS cmd-line or desktop, as the desktop 
 
 * IPFS setup
     - Install IPFS on both computers
-    - Enable "Libp2pStreamMounting" in IPFS (in settings .json)
-    - add each peer to the other peer using ip4 addresses: It should look like this: 
-[/ip4/192.168.129.12/tcp/4001/p2p/12D3KooWMu72wB1pKA1hN3yStSdT5QBZvEKAJcFSbVjPTmZ2vyks]
+    - Enable "Libp2pStreamMounting" in IPFS (in settings .json) by flipping "false" to "true"
+    - add each peer to the other peer using ip4 addresses
 
     - note the Peer IDs for use in Python scripts, for example: 
     12D3KooWMu72wB1pKA1hN3yStSdT5QBZvEKAJcFSbVjPTmZ2vyks
+    - run the demo-file-receiver on the receiver IPFS node: https://github.com/emendir/IPFS-Toolkit-Python/blob/master/Examples/Demo-File-Receiver.py
+    - use a modified version of the demo-file-sender.py to send the files from one ipfs node ot the other.
+
+
+## Contract deployment
+    - Install metamask
+    - acquire test eth for Sepolia
+    - grab the contract from this repository
+    - use remix.ethereum.org on the Sepolia network to deploy
+    - test timetrace contract deployed here: https://sepolia.etherscan.io/tx/0x34b271a9c47dba9d8c7535e5bb3e4107b549dd9111c23237a3ba2373119493b1
+    - 
