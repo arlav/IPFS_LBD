@@ -7,11 +7,18 @@ We work with Topologic as our main platform to read and write Linked Building Da
 To set up you need at least two computers running IPFS, with the IPFS tookit installed.
 there is no difference whether you run IPFS cmd-line or desktop, as the desktop version is just a visual wrapper around the IPFS kubo cmd-line, so all instructions apply for both. 
 
+* Python Installation
+    - python 3.12 
+    - to install multiple version of python, use either anaconda or pyenv to handle the environments.
+    - [Anaconda](https://anaconda.com/)
+    - [PyEnv](https://github.com/pyenv/pyenv)
 
 
 * Topologic 
-    [Topologic Core](https://github.com/wassimj/Topologic)
-    [Topologic Py:the Python bindings for Topologic](https://github.com/wassimj/topologicpy)
+   - [Topologic Core](https://github.com/wassimj/Topologic)
+    - to install it issue "pip install topologic_core" in the shell.
+   - [Topologic Py:the Python bindings for Topologic](https://github.com/wassimj/topologicpy)
+    - to install it issue "pip install topologicpy" in the shell. Topologic Core is a dependency of topologic python bindings, so it will install automatically in you install Topologic Core.
 
 
 * IPFS toolkit
@@ -22,6 +29,7 @@ there is no difference whether you run IPFS cmd-line or desktop, as the desktop 
     - Install IPFS on both computers
     - Enable "Libp2pStreamMounting" in IPFS (in settings .json)
     - add each peer to the other peer using ip4 addresses: It should look like this: 
-/ip4/192.168.129.12/tcp/4001/p2p/12D3KooWMu72wB1pKA1hN3yStSdT5QBZvEKAJcFSbVjPTmZ2vyks
+[/ip4/192.168.129.12/tcp/4001/p2p/12D3KooWMu72wB1pKA1hN3yStSdT5QBZvEKAJcFSbVjPTmZ2vyks]
+
     - note the Peer IDs for use in Python scripts, for example: 
     12D3KooWMu72wB1pKA1hN3yStSdT5QBZvEKAJcFSbVjPTmZ2vyks
