@@ -27,6 +27,7 @@ there is no difference whether you run IPFS cmd-line or desktop, as the desktop 
 
 * IPFS setup
     - Install IPFS on both computers
+    - install IPFS toolkit by "pip install IPFS-Toolkit" 
     - Enable "Libp2pStreamMounting" in IPFS (in settings .json) by flipping "false" to "true"
     - add each peer to the other peer using ip4 addresses
 
