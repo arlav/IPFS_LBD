@@ -41,6 +41,7 @@ contract TimeTrace is ERC1155, Ownable, ERC1155Burnable, ERC1155Supply/*, Reentr
 
     bool isTransferrable = false;
 
+//
     constructor(address initialOwner) ERC1155("ipfs://") Ownable(initialOwner) {}
 
     function setURI(string memory newuri) public onlyOwner {
