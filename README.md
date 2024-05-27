@@ -9,16 +9,16 @@ there is no difference whether you run IPFS cmd-line or desktop, as the desktop 
 
 
 
-    *Topologic 
+* Topologic 
     [Topologic Core](https://github.com/wassimj/Topologic)
     [Topologic Py:the Python bindings for Topologic](https://github.com/wassimj/topologicpy)
 
 
-    *IPFS toolkit
+* IPFS toolkit
     [IPFS toolkit source](https://github.com/emendir/IPFS-Toolkit-Python)
     [IPFS toolkit](https://pypi.org/project/IPFS-Toolkit/)
 
-    *IPFS setup
+* IPFS setup
     - Install IPFS on both computers
     - Enable "Libp2pStreamMounting" in IPFS (in settings .json)
     - add each peer to the other peer using ip4 addresses: It should look like this: 
